@@ -6,5 +6,7 @@ export default defineNuxtConfig({
       strapiBase: 'http://localhost:1337'
     }
   },
+    devtools: { enabled: false },
+
   compatibilityDate: '2025-01-01'
 })
